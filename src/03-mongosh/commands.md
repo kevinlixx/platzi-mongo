@@ -1,0 +1,23 @@
+## connect to container
+
+```sh
+docker-compose exec mongodb bash
+```
+
+## Connect with mongosh
+
+```sh
+mongosh "mongodb://root:root123@localhost:27017/?authMechanism=DEFAULT&tls=false"
+mongosh "mongodb+srv://kevinlis:dqehj9pZ1iJwKWdv@mongodbplatzi.dib0ebj.mongodb.net/"
+```
+
+```sh
+shows dbs
+show collections
+```
+
+```sh
+use("platzi_store")
+db.productos.find()
+
+```
