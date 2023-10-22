@@ -2,9 +2,9 @@ use ("sample_training")
 
 //set
 /* db.zips.updateMany(
-    //query
+    query
     {city: "CLEVELAND"},
-    //update - operators
+    update - operators
     {
         $set: { //añade atributos
             myAttr: "hola"
