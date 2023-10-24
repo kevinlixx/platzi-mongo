@@ -1,0 +1,7 @@
+use("platzi_store")
+
+//db.products.deleteOne({_id: 1}) //para una ide autogenerado seria objectId
+
+db.products.deleteMany({ price:100}) //lso que cumplan esto seran elimiandos
+
+db.products.drop() //elimina todo 
