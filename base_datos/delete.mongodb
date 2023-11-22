@@ -1,0 +1,3 @@
+use("Drogueria")
+
+db.empleados.deleteMany({ eps:"Salud total"})

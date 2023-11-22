@@ -1,7 +1,9 @@
 use("platzi_store")
 
+const firstname= "w"
+
 db.products.insertOne({
-    name: "product 1",
+    name: firstname,
     price: 1000
 })
 

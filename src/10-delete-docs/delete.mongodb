@@ -4,4 +4,7 @@ use("platzi_store")
 
 db.products.deleteMany({ price:100}) //lso que cumplan esto seran elimiandos
 
-db.products.drop() //elimina todo 
+db.products.drop() //elimina todo
+
+// Elimina todos los documentos de la colección
+db.products.remove({}) 
