@@ -9,5 +9,5 @@ db.iot.updateOne({
         readings: 2808
     }
 },{
-    upsert: true
+    upsert: true //permite tanto crear como modificar
 })
